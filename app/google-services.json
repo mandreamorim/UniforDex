@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "187937366491",
+    "firebase_url": "https://museu-unifor-default-rtdb.firebaseio.com",
+    "project_id": "museu-unifor",
+    "storage_bucket": "museu-unifor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187937366491:android:8ebac39ae16d3b12ce47fe",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0HmH-X3sCorBXVO3Z1Vqrejc3EeZTSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187937366491:android:ecd01587b814134ece47fe",
+        "android_client_info": {
+          "package_name": "com.example.teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0HmH-X3sCorBXVO3Z1Vqrejc3EeZTSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187937366491:android:d5abdd8769e13680ce47fe",
+        "android_client_info": {
+          "package_name": "com.example.unifordex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187937366491-g2vvj5rn13b21qsc7cklors7iqsqti9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unifordex",
+            "certificate_hash": "a947ef4ec789891a8c3015affed2970fe1dc9fd5"
+          }
+        },
+        {
+          "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0HmH-X3sCorBXVO3Z1Vqrejc3EeZTSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187937366491-43c5p0kk82h38n71fao8iitrfjp5qd8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
