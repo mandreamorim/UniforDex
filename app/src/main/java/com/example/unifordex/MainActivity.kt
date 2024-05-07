@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         if (user != null) {
             val userName = user.displayName
-            textView.text = "Welcome, " + userName
+            textView.text = "Olá, " + userName
         } else {
             // Handle the case where the user is not signed in
         }
@@ -56,9 +57,19 @@ class MainActivity : AppCompatActivity() {
             signOutAndStartSignInActivity()
         }
 
+        val obraButton = findViewById<Button>(R.id.obraButton)
+        obraButton.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetalheObra::class.java)
+            startActivity(intent)
+            finish()
+        }
 
-
-
+        val scanQR = findViewById<ImageButton>(R.id.scanQR)
+        scanQR.setOnClickListener {
+            val intent = Intent(this@MainActivity, ScanQR::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
 

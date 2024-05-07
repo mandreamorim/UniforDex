@@ -13,6 +13,21 @@
         android:theme="@style/Theme.UniforDex"
         tools:targetApi="31">
         <activity
+            android:name=".ScanQR"
+            android:exported="false" />
+        <activity
+            android:name=".DetalheObra"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdm"
+            android:exported="false" />
+        <activity
+            android:name=".ControleAdm"
+            android:exported="false" />
+        <activity
+            android:name=".TelaAdm"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="MainActivity"

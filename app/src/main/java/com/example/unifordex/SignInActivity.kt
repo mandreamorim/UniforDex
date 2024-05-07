@@ -47,6 +47,13 @@ class SignInActivity : AppCompatActivity() {
         signInButton.setOnClickListener {
             signIn()
         }
+
+        val tokenButton = findViewById<Button>(R.id.tokenButton)
+        tokenButton.setOnClickListener {
+            val intent = Intent(this, LoginAdm::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     private fun signIn() {
