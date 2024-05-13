@@ -3,9 +3,13 @@ package com.example.unifordex
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View.GONE
+import android.view.View.INVISIBLE
+import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.core.view.isGone
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -69,6 +73,24 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, ScanQR::class.java)
             startActivity(intent)
             finish()
+        }
+
+        val exposicoesButton = findViewById<Button>(R.id.exposicoesButton)
+        exposicoesButton.setOnClickListener {
+            val expoButton = findViewById<Button>(R.id.expoButton)
+            if(obraButton.isGone){
+                expoButton.visibility = GONE
+                obraButton.visibility = VISIBLE
+            } else {
+                obraButton.visibility = GONE
+                expoButton.visibility = VISIBLE
+            }
+        }
+
+        val conquitas = findViewById<Button>(R.id.conquistasButton)
+        conquitas.setOnClickListener {
+            val intent = Intent(this, conquistas::class.java)
+            startActivity(intent)
         }
     }
 

@@ -54,18 +54,18 @@
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/obrasButton"
+        android:id="@+id/conquistasButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Obras"
+        android:text="Troféus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/colecoesButton"
+        android:id="@+id/exposicoesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coleçoes"
+        android:text="Exposições"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -74,7 +74,7 @@
         android:layout_width="71dp"
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/colecoesButton"
+        app:layout_constraintEnd_toStartOf="@+id/exposicoesButton"
         app:layout_constraintStart_toEndOf="@+id/obrasButton"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
@@ -84,5 +84,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_end="559dp" />
+
+    <Button
+        android:id="@+id/expoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

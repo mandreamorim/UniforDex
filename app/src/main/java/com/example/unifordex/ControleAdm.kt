@@ -29,5 +29,12 @@ class ControleAdm : AppCompatActivity() {
             startActivity(proxima2)
             finish()
         }
+
+        val acessar_colecao = findViewById<Button>(R.id.figurativo)
+        acessar_colecao.setOnClickListener {
+            val intent = Intent(this@ControleAdm, ControleObras::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
